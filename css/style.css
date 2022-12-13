@@ -155,12 +155,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #00CC8E;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #00CC8E;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #00CC8E;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -185,8 +185,11 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
+  background-image: url('../assets/svg/hero-bg-2.svg');
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
@@ -323,8 +326,10 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
+  background-image: url('../assets/svg/contact-bg-2.svg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
